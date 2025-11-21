@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tài nguyên và mẹo an ninh mạng — bảo vệ dữ liệu và hệ thống của bạn." />
+    <title>An Ninh Mạng | Cyber Security</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua thanh điều hướng</a>
+
+    <header class="site-header" role="banner">
+      <div class="container">
+        <div class="brand">
+          <h1 class="site-title">Cyber Security</h1>
+          <p class="site-tag">Bảo vệ thế giới số của bạn</p>
+        </div>
+        <nav class="site-nav" role="navigation" aria-label="Chính">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#threats">Mối đe dọa</a></li>
+            <li><a href="#tips">Mẹo</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="hero">
+        <div class="container">
+          <h2 class="hero-title">Bảo vệ thế giới kỹ thuật số của bạn</h2>
+          <p class="hero-sub">Mẹo, kiến thức và công cụ để giữ an toàn cho dữ liệu và hệ thống.</p>
+          <p>
+            <a class="btn primary" href="#about" id="learnMore">Tìm hiểu thêm</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>Giới thiệu về An ninh mạng</h2>
+        <p>
+          biết cái con cặc gì mà nói hả cu
+        </p>
+      </section>
+
+      <section id="threats" class="section container">
+        <h2>Các mối đe dọa phổ biến</h2>
+        <div class="cards">
+          <article class="card" aria-labelledby="card1">
+            <h3 id="card1">Virus & Malware</h3>
+            <p>Phần mềm độc hại có thể phá hủy dữ liệu hoặc chiếm quyền điều khiển hệ thống.</p>
+          </article>
+          <article class="card" aria-labelledby="card2">
+            <h3 id="card2">Phishing</h3>
+            <p>Lừa đảo qua email hoặc trang web giả mạo để lấy cắp thông tin cá nhân.</p>
+          </article>
+          <article class="card" aria-labelledby="card3">
+            <h3 id="card3">DDoS</h3>
+            <p>Tấn công làm quá tải dịch vụ khiến hệ thống không thể phục vụ người dùng.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tips" class="section container">
+        <h2>Mẹo bảo mật cơ bản</h2>
+        <ul>
+          <li>Sử dụng mật khẩu mạnh và quản lý bằng trình quản lý mật khẩu.</li>
+          <li>Bật xác thực hai yếu tố (2FA) cho tài khoản quan trọng.</li>
+          <li>Thận trọng khi mở email hoặc liên kết từ nguồn lạ.</li>
+          <li>Luôn cập nhật hệ điều hành và phần mềm để vá lỗ hổng.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>Liên hệ</h2>
+        <form id="contactForm" action="#" method="post">
+          <label for="name">Họ tên</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Tin nhắn</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn">Gửi</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Cyber Security. Bảo lưu mọi quyền.</p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
